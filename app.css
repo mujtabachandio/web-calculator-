@@ -1,0 +1,59 @@
+/* app.css */
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: orange;
+    margin:12% 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    text-align: center;
+    color: orange;
+}
+
+.num1, .num2 {
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 200px;
+    padding: 8px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000000;
+    border:1.5px solid whitesmoke;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: orange;
+    color: black;
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.output {
+    text-align: center;
+    margin-top: 20px;
+    color: #ff0000;
+    transition: all 0.3s ease;
+}
